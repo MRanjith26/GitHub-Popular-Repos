@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.filter-item {
+  padding: 0px 35px;
+}
+@media screen and (max-width: 768px) {
+  .filter-item {
+    padding: 10px 15px;
+  }
+}
+.filter-button {
+  cursor: pointer;
+  outline: none;
+  background-color: inherit;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #0f172a;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 15px;
+}
+@media screen and (max-width: 768px) {
+  .filter-button {
+    font-size: 12px;
+    padding: 3px 12px;
+  }
+}
+
+.act-button {
+  color: #0284c7;
+  border: 1px solid #0284c7;
+}

@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.repo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f8f8ff;
+  width: 250px;
+  border-radius: 12px;
+}
+.avatar-image {
+  width: 100px;
+  height: 100px;
+}
+.repo-name {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #e73959;
+  font-weight: 600;
+}
+.details-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+}
+.details-text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #1e293b;
+  text-align: start;
+}
+.star-image {
+  width: 20px;
+  margin-right: 10px;
+}
+.fork-image {
+  width: 20px;
+  margin-right: 10px;
+}
+.issue-image {
+  width: 20px;
+  margin-right: 10px;
+}
